@@ -1,2 +1,4 @@
 # VLM_Text_Only_Training
-This is the source code and dataset for "When Words Outperform Vision: VLMs Can Self-Improve Via Text-Only Training For Human-Centered Decision Making"
+This is the source code and dataset for paper "Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning"
+
+be updated soon.
