@@ -2,4 +2,4 @@
 
 This Repo contains code for **"[Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning](https://arxiv.org/pdf/2503.16965v2)"**.   
 
-- [ ] Todo: update REAME, and upload data & model
+- [ ] Todo: update README, and upload data & models
