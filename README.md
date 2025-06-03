@@ -31,3 +31,4 @@
 #### 🌟 This Repo contains code and data for Praxis-VLM, which leverages textual GRPO training for vision-grounded decison making.
 
 ## Overview
+We introduce Praxis-VLM, a reasoning VLM for vision-grounded decision-making. Praxis-VLM employs the GRPO algorithm on textual scenarios to instill robust reasoning capabilities. These reasoning skills, acquired purely from text, successfully transfer to multimodal inference with visual inputs, significantly reducing reliance on scarce paired image-text training data.
