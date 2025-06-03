@@ -14,9 +14,9 @@
 </div>
 
 <div>
-    <sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>Tsinghua University, <sup>3</sup>InspireOmni AI&emsp; 
+    <em><sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>Tsinghua University, <sup>3</sup>InspireOmni AI</em>&emsp; 
 </div>
-<sup>4</sup>Alibaba Group, <sup>5</sup>Case Western Reserve University
+<em><sup>4</sup>Alibaba Group, <sup>5</sup>Case Western Reserve University</em>
 <div>
 </div>
 
