@@ -48,3 +48,37 @@ We introduce Praxis-VLM, a reasoning VLM for vision-grounded decision-making. Pr
 <div align='left'><img src="./assets/intro_figure.jpg"  alt="NAME" width="90%"/></div>
 
 
+## 📚 Training Data Curation
+
+The core of Praxis-VLM's text-driven training relies on a carefully curated dataset designed to instill robust reasoning and decision-making skills. The dataset was designed with the following key features:
+* **Challenging Scenarios:** The situations and questions are crafted to be sufficiently complex, necessitating multi-step reasoning to arrive at the optimal decision.
+* **Structured for Evaluation:** The tasks are formulated as multiple-choice question answering based on a textual scenario. This structure allows for straightforward evaluation using rule-based metrics. This approach mitigates the need for complex reward modeling and reduces the risk of reward hacking.
+* **Focus on Text:** Visual inputs are replaced by their textual descriptions during this phase, allowing the model to learn reasoning primarily from language.
+
+## ✨ Model Training
+
+We employ Qwen2.5-VL 3b and 7b as the base models. For model training, we leverage (Easy-R1)[https://github.com/hiyouga/EasyR1/tree/main] for GRPO implementation. For installation, please refer to the original Easy-R1 library.
+
+For model training:
+
+```
+bash examples/qwen2_5_vl_3b_mcq_grpo.sh
+```
+
+## To do
+- [ ] Inference Code
+- [ ] Upload Model Checkpoints
+
+
+## Citation
+```
+@misc{hu2025praxisvlmvisiongroundeddecisionmaking,
+      title={Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning}, 
+      author={Zhe Hu and Jing Li and Zhongzhu Pu and Hou Pong Chan and Yu Yin},
+      year={2025},
+      eprint={2503.16965},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.16965}, 
+}
+```
