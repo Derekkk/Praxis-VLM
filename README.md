@@ -6,10 +6,10 @@
 <h1>Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning</h1>
 
 <div>
-    <a target='_blank'>Zhe Hu<sup>1</sup></a>&emsp;
-    <a target='_blank'>Jing Li<sup>1</sup></a>&emsp;
-    <a target='_blank'>Zhongzhu Pu<sup>2,3</sup></a>&emsp;
-    <a target='_blank'>Hou Pong Chan<sup>4</sup></a>&emsp;
+    <a target='_blank'>Zhe Hu<sup>1</sup>,</a>&emsp;
+    <a target='_blank'>Jing Li<sup>1</sup>,</a>&emsp;
+    <a target='_blank'>Zhongzhu Pu<sup>2,3</sup>,</a>&emsp;
+    <a target='_blank'>Hou Pong Chan<sup>4</sup>,</a>&emsp;
     <a target='_blank'>Yu Yin<sup>5</sup></a>
 </div>
 
@@ -43,8 +43,8 @@
 
 
 ## Overview
-We introduce Praxis-VLM, a reasoning VLM for vision-grounded decision-making. Praxis-VLM employs the GRPO algorithm on textual scenarios to instill robust reasoning capabilities. These reasoning skills, acquired purely from text, successfully transfer to multimodal inference with visual inputs, significantly reducing reliance on scarce paired image-text training data.
+We introduce Praxis-VLM, a reasoning VLM for vision-grounded decision-making. Praxis-VLM employs the GRPO algorithm on textual scenarios to instill robust reasoning capabilities. These reasoning skills, acquired purely from text, successfully transfer to multimodal inference with visual inputs, significantly reducing reliance on scarce paired image-text training data. Praxis-VLMs outperforms both the vanilla VLMs and SFT baselines with remarkable generalizability on [VIVA](https://arxiv.org/pdf/2407.03000), [PCA-Bench](https://arxiv.org/pdf/2402.15527), and [EgoNormia](https://arxiv.org/pdf/2502.20490) benchmarks.
 
-<div align='left'><img src="./assets/intro_figure.jpg"  alt="NAME" width="100%"/></div>
+<div align='left'><img src="./assets/intro_figure.jpg"  alt="NAME" width="90%"/></div>
 
 
