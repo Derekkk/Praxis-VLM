@@ -38,8 +38,8 @@
 #### 🌟 This Repo contains code and data for Praxis-VLM, which leverages textual GRPO training for vision-grounded decison making.
 
 ## 🎉 Updates
+- **[2025-06]** Training code of Praxis-VLM is released.
 - **[2025-05]** Check out our [paper](https://arxiv.org/pdf/2503.16965v2) on arxiv.
-- **[2025-05]** Training code of Praxis-VLM is released.
 
 
 ## Overview
