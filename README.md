@@ -57,7 +57,7 @@ The core of Praxis-VLM's text-driven training relies on a carefully curated data
 
 ## ✨ Model Training
 
-We employ Qwen2.5-VL 3b and 7b as the base models. For model training, we leverage (Easy-R1)[https://github.com/hiyouga/EasyR1/tree/main] for GRPO implementation. For installation, please refer to the original Easy-R1 library.
+We employ Qwen2.5-VL 3b and 7b as the base models. For model training, we leverage [Easy-R1](https://github.com/hiyouga/EasyR1/tree/main) for GRPO implementation. For installation, please refer to the original Easy-R1 library.
 
 For model training:
 
