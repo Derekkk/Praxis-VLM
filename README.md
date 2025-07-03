@@ -72,13 +72,10 @@ bash examples/qwen2_5_vl_3b_mcq_grpo.sh
 
 ## Citation
 ```
-@misc{hu2025praxisvlmvisiongroundeddecisionmaking,
-      title={Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning}, 
-      author={Zhe Hu and Jing Li and Zhongzhu Pu and Hou Pong Chan and Yu Yin},
-      year={2025},
-      eprint={2503.16965},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.16965}, 
+@article{hu2025praxis,
+  title={Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning},
+  author={Hu, Zhe and Li, Jing and Pu, Zhongzhu and Chan, Hou Pong and Yin, Yu},
+  journal={arXiv preprint arXiv:2503.16965},
+  year={2025}
 }
 ```
