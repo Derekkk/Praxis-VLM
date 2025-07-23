@@ -67,7 +67,7 @@ bash examples/qwen2_5_vl_3b_mcq_grpo.sh
 
 ## To do
 - [ ] Inference Code
-- [ ] Upload Model Checkpoints
+- [ ] Evaluation
 
 
 ## Citation
