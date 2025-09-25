@@ -72,6 +72,8 @@ bash examples/qwen2_5_vl_7b_geo3k_grpo.sh
 bash examples/qwen2_5_vl_7b_mcq_grpo.sh
 ```
 
+If you want to specify the reward / weights of each reward component, you can modify the [reward/mcq.py](https://github.com/Derekkk/Praxis-VLM/blob/main/verl/utils/reward_score/mcq.py) file.
+
 ## Model Inference
 Here we use [VIVA benchmark](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24) as an example. For PCA-Bench and Egonormia, you can download the data from the original hub. We use vllm for inference.
 
