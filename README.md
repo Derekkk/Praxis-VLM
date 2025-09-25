@@ -67,10 +67,19 @@ bash examples/qwen2_5_vl_3b_mcq_grpo.sh
 ```
 
 ## Model Inference
-Here we use [VIVA benchmark](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24) as an example. For PCA-Bench and Egonormia, 
+Here we use [VIVA benchmark](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24) as an example. For PCA-Bench and Egonormia, you can download the data from the original hub.
+
 ```
 cd scripts
 python3 predict_praxis_vlm_vllm.py
+```
+
+## Evaluation
+
+We use accuracy for model performance evaluation:
+```
+cd scripts
+python3 evaluation.py
 ```
 
 ## Citation
