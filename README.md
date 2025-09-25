@@ -66,10 +66,12 @@ For model training:
 bash examples/qwen2_5_vl_3b_mcq_grpo.sh
 ```
 
-## To do
-- [ ] Inference Code
-- [ ] Evaluation
-
+## Model Inference
+Here we use [VIVA benchmark](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24) as an example. For PCA-Bench and Egonormia, 
+```
+cd scripts
+python3 predict_praxis_vlm_vllm.py
+```
 
 ## Citation
 ```
