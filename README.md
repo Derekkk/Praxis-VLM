@@ -62,8 +62,14 @@ We employ Qwen2.5-VL 3b and 7b as the base models. For model training, we levera
 
 For model training:
 
+- Math Cold-start Training:
 ```
-bash examples/qwen2_5_vl_3b_mcq_grpo.sh
+bash examples/qwen2_5_vl_7b_geo3k_grpo.sh
+```
+
+- Text-driven RL Training:
+```
+bash examples/qwen2_5_vl_7b_mcq_grpo.sh
 ```
 
 ## Model Inference
