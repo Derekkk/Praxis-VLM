@@ -1,7 +1,9 @@
 set -x
 
-MODEL_PATH=./Qwen2.5-VL-3B-Instruct  # replace it with your local file path
-# We also provide the checkpoint after math cold-start training: zhehuderek/praxis_vlm_7b_decisionmaking / zhehuderek/praxis_vlm_3b_decisionmaking
+MODEL_PATH=./Qwen2.5-VL-7B-Instruct  # replace it with your local file path
+
+# We also provide the checkpoint after math cold-start training: 
+# zhehuderek/praxis_vlm_7b_decisionmaking / zhehuderek/praxis_vlm_3b_decisionmaking
 
 
 SYSTEM_PROMPT="""You are a helpful AI Assistant, designed to provided well-reasoned and detailed responses. You FIRST think about the reasoning process as an internal monologue and then provide the user with the answer. The reasoning process MUST BE enclosed within <think> and </think> tags, and the final answer MUST BE enclosed within <answer> and </answer> tags."""
